@@ -1,0 +1,259 @@
+/*Null Style*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-tex-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.3;
+  z-index: -1;
+  background: url("https://i.ibb.co/6vh7hkp/IMG-20200301-110241.jpg") center/cover no-repeat fixed;
+}
+
+#header-img {
+  max-width: 104px;
+  max-height: 95px;
+  position: absolute;
+  right: 5px;
+}
+
+nav {
+  width: 200px;
+  height: 100vh;
+  border-right: 1px ridge #000;
+  position: fixed;
+  left: 0;
+}
+nav header {
+  padding: 5px 7px 0 7px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  color: #800000;
+}
+nav ul li {
+  display: block;
+  margin: 5px 10px;
+}
+nav ul li a {
+  color: #800000;
+  font-family: "Permanent Marker", cursive;
+}
+nav ul li:first-child {
+  margin-top: 20px;
+  font-family: "Permanent Marker", cursive;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  height: 100vh;
+  padding: 15px 0 0 15px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+main header {
+  font-size: 2rem;
+  color: #800000;
+  margin: 30px 0 20px 0;
+  font-family: "Permanent Marker", cursive;
+}
+
+section {
+  text-indent: 10px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+}
+section li {
+  margin-top: 5px;
+}
+
+#Introduction header {
+  margin: 10px 0 10px 0;
+}
+
+#top-margin {
+  margin: 40px 0 25px 0;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px 0;
+}
+.img_container img {
+  border: 1px solid #000;
+}
+
+#landforms {
+  max-width: 100%;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+#staff_show:hover {
+  cursor: pointer;
+}
+
+.p2 {
+  font-size: 1.5rem;
+  color: #800000;
+  line-height: 2rem;
+  border: 1px solid #800000;
+  border-radius: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.landforms_detailed {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.square {
+  list-style-type: square !important;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  line-height: 3.5rem;
+}
+
+#underline {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.article_ul li {
+  margin-left: 15px;
+  list-style-type: disc;
+}
+.article_ul li:last-child {
+  margin-bottom: 20px;
+}
+
+.layers {
+  margin: 5px 0 5px 0;
+}
+
+.font500 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+ol {
+  margin: 0 0 15px 15px;
+  list-style-type: decimal;
+}
+
+#letters {
+  margin-left: 15px;
+  list-style-type: lower-alpha;
+}
+
+#joke {
+  text-decoration: line-through;
+}
+
+#bear {
+  color: #800000;
+}
+
+.wear_label {
+  text-align: center;
+  margin-top: -15px;
+  font-style: italic;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+
+@media (max-width: 414px) {
+  nav {
+    max-height: 30vh;
+  }
+}
